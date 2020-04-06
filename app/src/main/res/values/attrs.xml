@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomCheckbox">
+        <attr name="checkedColor" format="color|reference">
+            <enum name="checked_color_1" value="0"/>
+            <enum name="checked_color_2" value="1"/>
+        </attr>
+        <attr name="mySolidColor" format="color|reference">
+            <enum name="solid_color_1" value="0"/>
+            <enum name="solid_color_2" value="1"/>
+        </attr>
+        <attr name="cbSizeH" format="integer|reference">
+            <enum name="cbSize_h" value="30"/>
+
+        </attr>
+        <attr name="cbSizeW" format="integer|reference">
+            <enum name="cbSize_w" value="30"/>
+
+        </attr>
+
+    </declare-styleable>
+</resources>

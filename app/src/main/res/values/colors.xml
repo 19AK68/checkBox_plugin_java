@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+    <color name="tint_color">#03DAC5</color>
+<!--    CheckBox checked-->
+
+    <color name="checkedBlue"> #4285f5</color>
+    <color name="checkedStrokeOne"> #ffffff</color>
+    <color name="checkedStrokeTwo"> #e9e9e9 </color>
+
+    <!--    CheckBox unchecked-->
+
+    <color name="unCheckedWhite"> #ffffff</color>
+    <color name="unCheckedStrokeOne"> #ffffff</color>
+    <color name="unCheckedStrokeTwo"> #e9e9e9 </color>
+
+    <color name="checked_color_blue"> #03DAC5 </color>
+
+</resources>

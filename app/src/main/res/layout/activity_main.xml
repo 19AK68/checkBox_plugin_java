@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100sp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/ll2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="48sp"
+            tools:ignore="MissingConstraints">
+
+            <com.ak.custom_check_box.CustomCheckbox
+                android:id="@+id/custom_CB2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24sp"
+                android:layout_marginTop="24sp"
+                android:button="@drawable/custom_checkbox"
+                android:checked="true"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text=" Custom Text 2 "
+                android:textSize="14sp"
+
+
+                />
+        </LinearLayout>
+
+
+
+
+
+        <Button
+
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48sp"
+            android:layout_marginRight="48sp"
+            android:layout_below="@id/ll2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50sp"
+            android:text="Change "
+
+            android:backgroundTint= "@color/unCheckedStrokeTwo"
+            tools:ignore="MissingConstraints" />
+
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <!--    android:drawableRight="?android:attr/listChoiceIndicatorMultiple"-->

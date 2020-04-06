@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatever="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/shapeChecked">
+        <shape android:shape="rectangle">
+            <solid whatever:mySolidColor="solid_color_1" />
+
+            <stroke android:width="4dp" android:color= "@color/checkedStrokeOne" />
+            <size android:height="23dp" android:width="23dp" />
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+
+
+            <stroke android:width="2dp" android:color="@color/checkedStrokeTwo" />
+            <size android:height="24dp" android:width="24dp" />
+        </shape>
+    </item>
+
+
+</layer-list>
+
+
+
+<!--<size whatever:cbSizeH="cbSize_h" whatever:cbSizeW="cbSize_w" />-->
