@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="CustomCheckbox">
+    <declare-styleable name="CustomCheckBox">
         <attr name="checkedColor" format="color|reference">
             <enum name="checked_color_1" value="0"/>
             <enum name="checked_color_2" value="1"/>

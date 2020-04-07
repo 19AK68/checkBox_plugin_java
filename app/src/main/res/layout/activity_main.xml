@@ -20,7 +20,7 @@
             android:layout_marginTop="48sp"
             tools:ignore="MissingConstraints">
 
-            <com.ak.custom_check_box.CustomCheckbox
+            <com.ak.custom_check_box.CustomCheckBox
                 android:id="@+id/custom_CB2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

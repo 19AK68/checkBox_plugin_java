@@ -32,3 +32,50 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }
+//
+//apply plugin: 'com.android.library'
+//
+//android {
+//    compileSdkVersion 29
+//
+//
+//    defaultConfig {
+//
+//        minSdkVersion 19
+//        targetSdkVersion 29
+//
+//        project.archivesBaseName = "CustomCheckBox"
+//        project.version = android.defaultConfig.versionName
+//
+//        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+//    }
+//
+//    buildTypes {
+//        release {
+//            minifyEnabled false
+//            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+//        }
+//    }
+//
+//    publishNonDefault true
+//    libraryVariants.all { variant ->
+//        variant.outputs.all { output ->
+//            def outputFile = output.outputFile
+//            if (outputFile != null && outputFile.name.endsWith('.aar')) {
+//                def fileName = "${archivesBaseName}-${version}.aar"
+//                outputFileName = fileName
+//            }
+//        }
+//    }
+//
+//}
+//
+//dependencies {
+//    implementation fileTree(dir: 'libs', include: ['*.jar'])
+//
+//    implementation 'androidx.appcompat:appcompat:1.0.2'
+//    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+//    testImplementation 'junit:junit:4.12'
+//    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+//    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+//}
