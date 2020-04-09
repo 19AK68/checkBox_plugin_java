@@ -10,7 +10,7 @@
         </shape>
     </item>
 
-    <item>
+    <item android:id="@+id/shapeChecked2">
         <shape android:shape="rectangle">
 
 

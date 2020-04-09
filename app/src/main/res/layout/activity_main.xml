@@ -8,24 +8,27 @@
 
     <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="500sp"
         android:layout_marginTop="100sp"
         tools:ignore="MissingConstraints">
 
         <LinearLayout
             android:id="@+id/ll2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="48sp"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+
+            android:layout_marginLeft="16sp"
+            android:layout_marginTop="16sp"
+            android:layout_marginRight="16sp"
             tools:ignore="MissingConstraints">
 
             <com.ak.custom_check_box.CustomCheckBox
+
                 android:id="@+id/custom_CB2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="24sp"
-                android:layout_marginTop="24sp"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_centerVertical="true"
+
                 android:button="@drawable/custom_checkbox"
                 android:checked="true"
                 android:paddingLeft="10sp"
@@ -53,6 +56,22 @@
             android:layout_marginTop="50sp"
             android:text="Change "
 
+            android:backgroundTint= "@color/unCheckedStrokeTwo"
+            tools:ignore="MissingConstraints" />
+
+
+        <Button
+
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48sp"
+            android:layout_marginRight="48sp"
+            android:layout_below="@id/button1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16sp"
+            android:text="Reset "
+            android:textColor="@color/colorPrimary"
             android:backgroundTint= "@color/unCheckedStrokeTwo"
             tools:ignore="MissingConstraints" />
 
